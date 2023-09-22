@@ -1,12 +1,14 @@
 <template>
-  <div
-    class="tw-flex tw-items-center tw-bg-zinc-900 tw-text-white tw-justify-center tw-h-screen"
-  ></div>
+  <!-- container -->
+  <div class="tw-bg-zinc-900 tw-text-white tw-flex tw-h-screen">
+    <SideBar />
+  </div>
 </template>
 
 <script>
+import SideBar from "@/components/SideBar.vue";
 export default {
   name: "HomeView",
-  components: {},
+  components: { SideBar },
 };
 </script>
