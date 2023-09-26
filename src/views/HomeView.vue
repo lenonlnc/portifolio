@@ -1,7 +1,7 @@
 <template>
   <!-- container -->
   <div
-    class="tw-bg-zinc-900 tw-p-10 tw-text-white tw-flex tw-justify-center tw-h-screen"
+    class="tw-bg-zinc-900 tw-p-10 tw-text-white tw-flex tw-flex-col tw-items-center tw-gap-52 tw-h-screen"
   >
     <div class="me tw-flex tw-flex-col tw-gap-2">
       <img
@@ -14,7 +14,11 @@
         <p class="tw-text-lg">Software Developer</p>
       </div>
     </div>
-    <Cards />
+    <div class="tw-flex tw-items-center tw-gap-6">
+      <Card name="github" icon="github" />
+      <Card name="linkedin" icon="linkedin-in" />
+      <Card name="carreer" icon="suitcase" />
+    </div>
   </div>
 </template>
 
